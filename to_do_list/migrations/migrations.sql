@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS tasks;
+
+CREATE TABLE tasks(
+  id SERIAL PRIMARY KEY,
+  subject VARCHAR(50) NOT NULL,
+  content VARCHAR(255) NOT NULL
+);

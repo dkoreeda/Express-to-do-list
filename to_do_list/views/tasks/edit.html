@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+     <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/script.js"></script>
+</head>
+<body>
+  <h3>EDIT ITEM</h3>
+  <form class="edit-item">
+      <label for="">Subject:</label>
+      <input class="subject" value= {{subject}} />
+      <br>
+
+      <label for="">Content:</label>
+      <input class="content" value= {{content}} />
+
+      <input class="id" value= {{id}} type="hidden" />
+
+      <button type="submit" class="edit-button">Edit</button>
+  </form>
+  <a href="/tasks">Go back to Full List</a>
+</body>
+</html>

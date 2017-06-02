@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+    <script type="text/javascript" src="/js/jquery.js"></script>
+    <script type="text/javascript" src="/js/script.js"></script>
+</head>
+<body>
+  <h3>TO DO LIST</h3>
+    <a href="/tasks/new">Create a new item</a>
+
+    {{#list}}
+    <a href="/tasks/{{id}}">Item {{id}} </a>
+    <p>{{subject}}</p>
+    <p>{{content}}</p>
+    {{/list}}
+</body>
+</html>
